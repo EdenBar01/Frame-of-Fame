@@ -2,71 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!--<link rel="icon" type="image/svg+xml" href="/vite.svg" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Tailwind</title>
-    <link rel="stylesheet" href="/style.css" />
+    <title>Frame of Fame</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body
-    class="h-screen bg-gradient-to-b from-gray-900 to-slate-800 flex flex-col text-white"
-  >
-    <header class="py-16">
-      <h1 class="text-4xl font-bold text-center mb-6">Create Tailwind</h1>
-      <div class="flex flex-row justify-center items-center gap-4">
-        <a
-          class="github-button"
-          href="https://github.com/andrejjurkin/create-tw"
-          data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-          data-icon="octicon-star"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Star andrejjurkin/create-tw on GitHub"
-          >Star</a
-        >
-        <a
-          class="github-button"
-          href="https://github.com/andrejjurkin/create-tw/discussions"
-          data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-          data-icon="octicon-comment-discussion"
-          data-size="large"
-          aria-label="Discuss andrejjurkin/create-tw on GitHub"
-          >Discuss</a
-        >
-      </div>
-    </header>
+  <body class="taxt-grat-600"> 
 
-    <main class="flex-1">
-      <section class="text-center">
-        <div class="w-full grid place-items-center p-12">
-          <a href="https://vitejs.dev/">
-            <img src="/vite.svg" alt="Vite" class="h-24" />
-          </a>
+    <div> <!--content weapper -->
+      <div>
+        <nav>
+          <div>
+            <h1>
+              <a href="/">Frame of Fame</a>       
+            </h1>
+          </div>
+          <ul>
+            <li class="text-gray-700">
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div> <!--end nav-->
+
+      <main>
+        <div>
+          <a href="#">Log In</a>
+          <a href="#">Sing Up</a>
+          <a href="#">Search</a>
+          <a href="#">Cart</a>
         </div>
-        <h2 class="text-3xl font-bold text-center">Created With Vite</h2>
-        <p class="mb-6">The Next Generation Frontend Tooling</p>
-        <ul
-          class="flex flex-row items-center w-full gap-8 justify-center text-blue-300 font-medium"
-        >
-          <li>
-            <a href="https://vitejs.dev/">Learn More</a>
-          </li>
-          <li>
-            <a href="https://vitejs.dev/guide/why.html">Why Vite?</a>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <header>
+          <h2 class="text-gray-700 text-6xl">Shop by Category
+            <li class="text-2xl"> 
+              paintings
+              Photography
+              Fine Art Prints
+              Sculpture
+            </li>
+          </h2> 
+        </header>
+        <div>
+          <h3 class="font-light">2024 Bestsellers</h3>
+          <h4>Discover curator-approved collector favorites.</h4>
 
-    <footer class="px-8 py-12 border-t border-gray-800">
-      <div class="px-8 font-medium text-center">
-        <a href="https://github.com/andrejjurkin/create-tw">
-          Create Tailwind
-        </a>
-      </div>
-    </footer>
-    <script type="module" src="/main.js"></script>
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+          <div>
+            <!-- cards go here-->
+            <div>
+              <img src="public/img/pool 17.jpeg" alt="stew"
+              width="214.286" 
+              height="149.571"/>
+              <div>
+                <span>Pool 17</span>
+                <span>Paintings, 100 W x 70 H x 2.5 D cm</span>
+                <span>Karina Antonczak</span>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="font-light">Shop by Price</h3>
+
+          <div>
+            <!-- cards go here-->
+
+          </div>
+          <div>
+            <div>Discover More</div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
