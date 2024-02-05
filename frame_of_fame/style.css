@@ -84,7 +84,19 @@
     color: #ffffff; /* White */
   }
 
-  main {
+  #main {
     display: block;
+    margin-right: 0;
+    margin-left: -443px;
   }
 
+  
+
+  nav {
+    padding-right: 20px; /* Add some right padding to the navigation */
+    margin-right: auto; /* Add margin-right: auto to push it to the left */
+  }
+
+  #menu {
+    margin-right: 0; /* Reset the right margin for the menu */
+  }
